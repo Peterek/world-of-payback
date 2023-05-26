@@ -7,104 +7,152 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5AEDC59D2980429E006BEBC2 /* WorldOfPAYBACKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEDC59C2980429E006BEBC2 /* WorldOfPAYBACKApp.swift */; };
-		5AEDC59F2980429E006BEBC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEDC59E2980429E006BEBC2 /* ContentView.swift */; };
-		5AEDC5A1298042A0006BEBC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AEDC5A0298042A0006BEBC2 /* Assets.xcassets */; };
-		5AEDC5A5298042A0006BEBC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AEDC5A4298042A0006BEBC2 /* Preview Assets.xcassets */; };
+		5A92CF392A1D5A2000149D69 /* WorldOfPAYBACK_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A92CF382A1D5A2000149D69 /* WorldOfPAYBACK_SwiftUIApp.swift */; };
+		5A92CF3D2A1D5A2100149D69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A92CF3C2A1D5A2100149D69 /* Assets.xcassets */; };
+		5A92CF412A1D5A2100149D69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A92CF402A1D5A2100149D69 /* Preview Assets.xcassets */; };
+		5A92CF4A2A1D5B3500149D69 /* WorldOfPAYBACK_Core in Frameworks */ = {isa = PBXBuildFile; productRef = 5A92CF492A1D5B3500149D69 /* WorldOfPAYBACK_Core */; };
+		5A92CF522A1D5B7900149D69 /* TransactionsErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A92CF4B2A1D5B7900149D69 /* TransactionsErrorView.swift */; };
+		5A92CF532A1D5B7900149D69 /* TransactionListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A92CF4D2A1D5B7900149D69 /* TransactionListItemView.swift */; };
+		5A92CF542A1D5B7900149D69 /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A92CF4F2A1D5B7900149D69 /* TransactionDetailView.swift */; };
+		5A92CF552A1D5B7900149D69 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A92CF512A1D5B7900149D69 /* TransactionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5AEDC5992980429E006BEBC2 /* WorldOfPAYBACK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldOfPAYBACK.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AEDC59C2980429E006BEBC2 /* WorldOfPAYBACKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldOfPAYBACKApp.swift; sourceTree = "<group>"; };
-		5AEDC59E2980429E006BEBC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5AEDC5A0298042A0006BEBC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5AEDC5A2298042A0006BEBC2 /* WorldOfPAYBACK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorldOfPAYBACK.entitlements; sourceTree = "<group>"; };
-		5AEDC5A4298042A0006BEBC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A92CF352A1D5A2000149D69 /* WorldOfPAYBACK_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldOfPAYBACK_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A92CF382A1D5A2000149D69 /* WorldOfPAYBACK_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldOfPAYBACK_SwiftUIApp.swift; sourceTree = "<group>"; };
+		5A92CF3C2A1D5A2100149D69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A92CF3E2A1D5A2100149D69 /* WorldOfPAYBACK_SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorldOfPAYBACK_SwiftUI.entitlements; sourceTree = "<group>"; };
+		5A92CF402A1D5A2100149D69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A92CF472A1D5B1E00149D69 /* WorldOfPAYBACK_Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = WorldOfPAYBACK_Core; path = ../WorldOfPAYBACK_Core; sourceTree = "<group>"; };
+		5A92CF4B2A1D5B7900149D69 /* TransactionsErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsErrorView.swift; sourceTree = "<group>"; };
+		5A92CF4D2A1D5B7900149D69 /* TransactionListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionListItemView.swift; sourceTree = "<group>"; };
+		5A92CF4F2A1D5B7900149D69 /* TransactionDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDetailView.swift; sourceTree = "<group>"; };
+		5A92CF512A1D5B7900149D69 /* TransactionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5AEDC5962980429E006BEBC2 /* Frameworks */ = {
+		5A92CF322A1D5A2000149D69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A92CF4A2A1D5B3500149D69 /* WorldOfPAYBACK_Core in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5AEDC5902980429E006BEBC2 = {
+		5A92CF2C2A1D5A2000149D69 = {
 			isa = PBXGroup;
 			children = (
-				5AEDC59B2980429E006BEBC2 /* WorldOfPAYBACK */,
-				5AEDC59A2980429E006BEBC2 /* Products */,
+				5A92CF472A1D5B1E00149D69 /* WorldOfPAYBACK_Core */,
+				5A92CF372A1D5A2000149D69 /* WorldOfPAYBACK_SwiftUI */,
+				5A92CF362A1D5A2000149D69 /* Products */,
+				5A92CF482A1D5B3500149D69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		5AEDC59A2980429E006BEBC2 /* Products */ = {
+		5A92CF362A1D5A2000149D69 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AEDC5992980429E006BEBC2 /* WorldOfPAYBACK.app */,
+				5A92CF352A1D5A2000149D69 /* WorldOfPAYBACK_SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5AEDC59B2980429E006BEBC2 /* WorldOfPAYBACK */ = {
+		5A92CF372A1D5A2000149D69 /* WorldOfPAYBACK_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				5AEDC59C2980429E006BEBC2 /* WorldOfPAYBACKApp.swift */,
-				5AEDC59E2980429E006BEBC2 /* ContentView.swift */,
-				5AEDC5A0298042A0006BEBC2 /* Assets.xcassets */,
-				5AEDC5A2298042A0006BEBC2 /* WorldOfPAYBACK.entitlements */,
-				5AEDC5A3298042A0006BEBC2 /* Preview Content */,
+				5A92CF382A1D5A2000149D69 /* WorldOfPAYBACK_SwiftUIApp.swift */,
+				5A92CF4E2A1D5B7900149D69 /* TransactionDetailView */,
+				5A92CF4B2A1D5B7900149D69 /* TransactionsErrorView.swift */,
+				5A92CF4C2A1D5B7900149D69 /* TransactionsListItemView */,
+				5A92CF502A1D5B7900149D69 /* TransactionsView */,
+				5A92CF3C2A1D5A2100149D69 /* Assets.xcassets */,
+				5A92CF3E2A1D5A2100149D69 /* WorldOfPAYBACK_SwiftUI.entitlements */,
+				5A92CF3F2A1D5A2100149D69 /* Preview Content */,
 			);
-			path = WorldOfPAYBACK;
+			path = WorldOfPAYBACK_SwiftUI;
 			sourceTree = "<group>";
 		};
-		5AEDC5A3298042A0006BEBC2 /* Preview Content */ = {
+		5A92CF3F2A1D5A2100149D69 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				5AEDC5A4298042A0006BEBC2 /* Preview Assets.xcassets */,
+				5A92CF402A1D5A2100149D69 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A92CF482A1D5B3500149D69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A92CF4C2A1D5B7900149D69 /* TransactionsListItemView */ = {
+			isa = PBXGroup;
+			children = (
+				5A92CF4D2A1D5B7900149D69 /* TransactionListItemView.swift */,
+			);
+			path = TransactionsListItemView;
+			sourceTree = "<group>";
+		};
+		5A92CF4E2A1D5B7900149D69 /* TransactionDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				5A92CF4F2A1D5B7900149D69 /* TransactionDetailView.swift */,
+			);
+			path = TransactionDetailView;
+			sourceTree = "<group>";
+		};
+		5A92CF502A1D5B7900149D69 /* TransactionsView */ = {
+			isa = PBXGroup;
+			children = (
+				5A92CF512A1D5B7900149D69 /* TransactionsView.swift */,
+			);
+			path = TransactionsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5AEDC5982980429E006BEBC2 /* WorldOfPAYBACK */ = {
+		5A92CF342A1D5A2000149D69 /* WorldOfPAYBACK_SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AEDC5A8298042A0006BEBC2 /* Build configuration list for PBXNativeTarget "WorldOfPAYBACK" */;
+			buildConfigurationList = 5A92CF442A1D5A2100149D69 /* Build configuration list for PBXNativeTarget "WorldOfPAYBACK_SwiftUI" */;
 			buildPhases = (
-				5AEDC5952980429E006BEBC2 /* Sources */,
-				5AEDC5962980429E006BEBC2 /* Frameworks */,
-				5AEDC5972980429E006BEBC2 /* Resources */,
+				5A92CF312A1D5A2000149D69 /* Sources */,
+				5A92CF322A1D5A2000149D69 /* Frameworks */,
+				5A92CF332A1D5A2000149D69 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WorldOfPAYBACK;
-			productName = WorldOfPAYBACK;
-			productReference = 5AEDC5992980429E006BEBC2 /* WorldOfPAYBACK.app */;
+			name = WorldOfPAYBACK_SwiftUI;
+			packageProductDependencies = (
+				5A92CF492A1D5B3500149D69 /* WorldOfPAYBACK_Core */,
+			);
+			productName = WorldOfPAYBACK_SwiftUI;
+			productReference = 5A92CF352A1D5A2000149D69 /* WorldOfPAYBACK_SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5AEDC5912980429E006BEBC2 /* Project object */ = {
+		5A92CF2D2A1D5A2000149D69 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					5AEDC5982980429E006BEBC2 = {
+					5A92CF342A1D5A2000149D69 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 5AEDC5942980429E006BEBC2 /* Build configuration list for PBXProject "WorldOfPAYBACK" */;
+			buildConfigurationList = 5A92CF302A1D5A2000149D69 /* Build configuration list for PBXProject "WorldOfPAYBACK_SwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,42 +160,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 5AEDC5902980429E006BEBC2;
-			productRefGroup = 5AEDC59A2980429E006BEBC2 /* Products */;
+			mainGroup = 5A92CF2C2A1D5A2000149D69;
+			productRefGroup = 5A92CF362A1D5A2000149D69 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5AEDC5982980429E006BEBC2 /* WorldOfPAYBACK */,
+				5A92CF342A1D5A2000149D69 /* WorldOfPAYBACK_SwiftUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5AEDC5972980429E006BEBC2 /* Resources */ = {
+		5A92CF332A1D5A2000149D69 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AEDC5A5298042A0006BEBC2 /* Preview Assets.xcassets in Resources */,
-				5AEDC5A1298042A0006BEBC2 /* Assets.xcassets in Resources */,
+				5A92CF412A1D5A2100149D69 /* Preview Assets.xcassets in Resources */,
+				5A92CF3D2A1D5A2100149D69 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5AEDC5952980429E006BEBC2 /* Sources */ = {
+		5A92CF312A1D5A2000149D69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AEDC59F2980429E006BEBC2 /* ContentView.swift in Sources */,
-				5AEDC59D2980429E006BEBC2 /* WorldOfPAYBACKApp.swift in Sources */,
+				5A92CF552A1D5B7900149D69 /* TransactionsView.swift in Sources */,
+				5A92CF522A1D5B7900149D69 /* TransactionsErrorView.swift in Sources */,
+				5A92CF532A1D5B7900149D69 /* TransactionListItemView.swift in Sources */,
+				5A92CF542A1D5B7900149D69 /* TransactionDetailView.swift in Sources */,
+				5A92CF392A1D5A2000149D69 /* WorldOfPAYBACK_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5AEDC5A6298042A0006BEBC2 /* Debug */ = {
+		5A92CF422A1D5A2100149D69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +256,7 @@
 			};
 			name = Debug;
 		};
-		5AEDC5A7298042A0006BEBC2 /* Release */ = {
+		5A92CF432A1D5A2100149D69 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,15 +307,15 @@
 			};
 			name = Release;
 		};
-		5AEDC5A9298042A0006BEBC2 /* Debug */ = {
+		5A92CF452A1D5A2100149D69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = WorldOfPAYBACK/WorldOfPAYBACK.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WorldOfPAYBACK_SwiftUI/WorldOfPAYBACK_SwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WorldOfPAYBACK/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WorldOfPAYBACK_SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 676K95PUQG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -284,7 +335,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.peterek.WorldOfPAYBACK;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peterek.WorldOfPAYBACK-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -294,15 +345,15 @@
 			};
 			name = Debug;
 		};
-		5AEDC5AA298042A0006BEBC2 /* Release */ = {
+		5A92CF462A1D5A2100149D69 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = WorldOfPAYBACK/WorldOfPAYBACK.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WorldOfPAYBACK_SwiftUI/WorldOfPAYBACK_SwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WorldOfPAYBACK/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WorldOfPAYBACK_SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 676K95PUQG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -322,7 +373,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.peterek.WorldOfPAYBACK;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peterek.WorldOfPAYBACK-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -335,25 +386,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5AEDC5942980429E006BEBC2 /* Build configuration list for PBXProject "WorldOfPAYBACK" */ = {
+		5A92CF302A1D5A2000149D69 /* Build configuration list for PBXProject "WorldOfPAYBACK_SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AEDC5A6298042A0006BEBC2 /* Debug */,
-				5AEDC5A7298042A0006BEBC2 /* Release */,
+				5A92CF422A1D5A2100149D69 /* Debug */,
+				5A92CF432A1D5A2100149D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AEDC5A8298042A0006BEBC2 /* Build configuration list for PBXNativeTarget "WorldOfPAYBACK" */ = {
+		5A92CF442A1D5A2100149D69 /* Build configuration list for PBXNativeTarget "WorldOfPAYBACK_SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AEDC5A9298042A0006BEBC2 /* Debug */,
-				5AEDC5AA298042A0006BEBC2 /* Release */,
+				5A92CF452A1D5A2100149D69 /* Debug */,
+				5A92CF462A1D5A2100149D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A92CF492A1D5B3500149D69 /* WorldOfPAYBACK_Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WorldOfPAYBACK_Core;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 5AEDC5912980429E006BEBC2 /* Project object */;
+	rootObject = 5A92CF2D2A1D5A2000149D69 /* Project object */;
 }
